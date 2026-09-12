@@ -284,8 +284,8 @@ namespace KonvertOvning
                 summa += tal[i];
             double medel = (double)summa / tal.Length;
             Console.WriteLine($"Medel: {medel}");
-            //Finns inga fel i denna kod. Den fungerar som tänkt, man får ut ett medelvärde av Arrayn i int.
 
+            // Denna kod innehåller inga buggar i sin nuvarande utformning.
         }
     }
 }
